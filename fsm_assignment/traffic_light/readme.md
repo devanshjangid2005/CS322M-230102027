@@ -1,4 +1,4 @@
-# Traffic Light Controller — Testbench (tb2.v)
+# Traffic Light Controller — Testbench (tb_light.v)
 
 ## ⏱️ Clock & Tick Setup
 - **Clock (clk)**
@@ -30,7 +30,7 @@ This cycle repeats indefinitely.
 ---
 
 ## ✅ Verification
-- Simulation observed in **GTKWave** (`wave2.vcd`).
+- Simulation observed in **GTKWave** (`wave_light.vcd`).
 - Behavior confirmed:
   - After reset → **NS Green** active for 5 ticks.
   - Transitioned to **NS Yellow** for 2 ticks.
